@@ -1,0 +1,31 @@
+/* styles.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(104, 104, 113); /* Initial background color */
+    transition: background-color 0.5s ease-in-out; /* Transition effect */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(123, 53, 53, 0.8); /* Background color on hover */
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333; /* Link color */
+}
+
+/* Style for when hovering over a menu item */
+.navbar a:hover {
+    color: #ff5733; /* Change the font color on hover */
+}
